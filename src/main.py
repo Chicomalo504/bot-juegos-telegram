@@ -3,7 +3,7 @@
 
 import os
 from games_bot import GamesTelegramBot
-TOKEN_TELEGRAM = os.environ['TOKEN_TELEGRAM']
+TOKEN_TELEGRAM = os.environ['7540483519:AAFxVChydT4sfJL12RlLlDm8qUlmPx5gtP4']
 import re
 pattern = re.compile(r"[-] [a-zA-ZáéíóúñÁÉÍÓÚÑ]+")
 inline_pattern = re.compile(r"[a-zA-ZáéíóúñÁÉÍÓÚÑ]+[_]+ [1-9]")
